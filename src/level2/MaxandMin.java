@@ -11,10 +11,8 @@ public class MaxandMin {
     	}
     	Arrays.sort(intList);
     	
-    	StringBuilder sb = new StringBuilder();
-    	sb.append(intList[0]+ " ");
-    	sb.append(intList[intList.length-1]);
-    	return sb.toString();
+    	String anser = intList[0]+ " " + intList[intList.length-1];
+    	return anser;
     }
     
     public static void main(String[] args) {
