@@ -17,9 +17,10 @@ public class DandarinPick {
 		
 		//키값
 		List<Integer> key = new ArrayList<>(size.keySet());
-		//내림차순
-		key.sort((o1,o2)->size.get(o2)-size.get(o1));
 		
+		//사이즈 기준 내림차순
+		key.sort((o1,o2)->size.get(o2)-size.get(o1));
+
 		//k개수만큼 담기
 		int i = 0;
 		while(k>0) {
