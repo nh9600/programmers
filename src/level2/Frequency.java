@@ -20,7 +20,7 @@ public class Frequency {
 		for (int i = 0; i < index.length; i++) {
 			if (max < index[i]) {
 				max = index[i]; // MAX
-				mode = i; // 최빈값 : MODE
+				mode = i; // 최빈값
 			}
 		}
 
