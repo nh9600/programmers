@@ -1,16 +1,10 @@
 package level0;
 
-import javafx.util.converter.LocalDateStringConverter;
-import jdk.nashorn.internal.objects.annotations.Getter;
-import jdk.nashorn.internal.objects.annotations.Setter;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
-import java.util.Locale;
 
 public class dateTest {
     public static String dateTest1(String dt) throws ParseException {
